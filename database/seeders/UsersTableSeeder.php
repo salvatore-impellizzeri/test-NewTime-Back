@@ -19,7 +19,7 @@ class UsersTableSeeder extends Seeder
     {
         $faker = Faker::create();
 
-        foreach (range(1, 10) as $index) {
+        foreach (range(1, 24) as $index) {
             $firstName = $faker->firstName;
             $lastName = $faker->lastName;
 

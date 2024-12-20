@@ -18,5 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::name('api.')->group(function(){
     Route::get('/users', [UserController::class, 'index']);    
     Route::get('/users/{slug}', [UserController::class, 'show']);
+
+    Route::delete('/users/{id}', [UserController::class, 'destroy']);
 });
 
