@@ -72,7 +72,7 @@ L'app sarà disponibile su http://localhost:8000.
 ---
 
 ## Istruzioni per chi NON usa Docker
-## 2. Configura l'ambiente
+### 2. Configura l'ambiente
 Assicurati di avere installato:
 
 - PHP
